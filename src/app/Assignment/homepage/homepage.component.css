@@ -1,0 +1,259 @@
+.container1 {
+  position: relative;
+  background: url("../../../assets/cheif/hero.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  height: 30rem;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.51);
+}
+.content-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8vw;
+}
+.content-block h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  font-size: 65px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-bottom: 15px;
+}
+.content-block p {
+  color: #fff;
+  font-size: 20px;
+}
+.popular-category {
+  margin-top: 40px;
+}
+.popular-category h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.list-content {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2vw 10vw;
+}
+
+.list-content a {
+  border: 1px solid #404040;
+  color: #c1c1c1;
+  font-weight: 200;
+  padding: 4px 10px;
+  font-size: 12px;
+  text-decoration: none;
+}
+.search-boxes {
+  position: relative;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 3px;
+  margin-bottom: -50px;
+  box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.12);
+  margin: 0vw 10vw;
+  z-index: 101;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 2;
+  flex-grow: 2;
+}
+input {
+  padding: 10px 8vw;
+  color: #000;
+  margin: 0 10px;
+  border-color: #dedede;
+  box-sizing: border-box;
+}
+.row1 button {
+  background: #5672f9;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .container1 {
+    position: relative;
+    background: url("../../../assets/cheif/hero.jpg") no-repeat center center;
+    background-size: 100% 100%;
+
+    height: 24rem;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .content-block h1 {
+    font-size: 35px;
+  }
+  .list-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .list-item {
+    margin: 5px 0;
+  }
+
+  .content-block p {
+    color: #fff;
+    font-size: 15px;
+  }
+  .row1 {
+    flex-direction: column;
+  }
+  input {
+    padding: 5px 5vw;
+    color: #000;
+    margin: 0 5px;
+    border-color: #dedede;
+  }
+  .row1 div {
+    margin: 5px 0;
+  }
+
+  .row1 button {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+
+  .search-boxes {
+    padding: 10px 10px;
+    border-radius: 3px;
+    margin-bottom: -50px;
+    box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.12);
+    margin: 1vw 10vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 800px) {
+  .container1 {
+    height: 23rem;
+    width: 100%;
+  }
+  .content-block h1 {
+    font-size: 45px;
+  }
+  .search-boxes {
+    padding: 20px 20px;
+    border-radius: 3px;
+    margin-bottom: -50px;
+    box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.12);
+    margin: 0vw 12vw;
+  }
+  input {
+    padding: 5px 5vw;
+    color: #000;
+    margin: 0 5px;
+    border-color: #dedede;
+  }
+  .row1 div {
+    margin: 5px 0;
+  }
+
+  .row1 button {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .container1 {
+    height: 25rem;
+    width: 100%;
+  }
+  .content-block h1 {
+    font-size: 40px;
+  }
+  .search-boxes {
+    padding: 20px 20px;
+    border-radius: 3px;
+    margin-bottom: -50px;
+    box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.12);
+    margin: 3vw 12vw;
+  }
+  input {
+    padding: 5px 5vw;
+    color: #000;
+    margin: 0 5px;
+    border-color: #dedede;
+  }
+  .row1 div {
+    margin: 5px 0;
+  }
+
+  .row1 button {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container1 {
+    height: 25rem;
+    width: 100%;
+  }
+  .content-block h1 {
+    font-size: 45px;
+  }
+  .search-boxes {
+    padding: 20px 20px;
+    border-radius: 3px;
+    margin-bottom: -50px;
+    box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.12);
+    margin: 0vw 12vw;
+  }
+  input {
+    padding: 5px 5vw;
+    color: #000;
+    margin: 0 5px;
+    border-color: #dedede;
+  }
+  .row1 div {
+    margin: 5px 0;
+  }
+
+  .row1 button {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container1 {
+    height: 33rem;
+    width: 100%;
+  }
+}

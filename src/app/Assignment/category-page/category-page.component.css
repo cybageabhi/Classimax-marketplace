@@ -1,0 +1,122 @@
+.section {
+  padding: 100px 0;
+}
+.container4 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row-s {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.content {
+  margin: 0 8vw;
+}
+.section-title {
+  position: relative;
+  margin-bottom: 75px;
+  text-align: center;
+}
+.section-title h2 {
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.section-title p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #848484;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.card-content {
+  box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.09);
+  padding: 20px 25px;
+  border-radius: 3px;
+  margin-bottom: 25px;
+  width: 17vw;
+  margin: 2vh 1vw;
+}
+.card-content .header {
+  margin-bottom: 20px;
+  border-bottom: 3px solid #f4f7f9;
+  text-align: center;
+}
+.card-content .header i {
+  background: #ccdb38;
+  box-shadow: 0 0 0px 4px rgba(204, 219, 56, 0.35);
+}
+.card-content .header h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.category-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.category-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1px solid #f4f7f9;
+  padding: 10px 0;
+}
+.category-list li a {
+  color: #777;
+  font-size: 13px;
+}
+.category-list li a span {
+  font-size: 10px;
+  background: #f4f7f9;
+  border-radius: 10px;
+  padding: 3px 8px;
+  color: #84919b;
+}
+.category-list li span {
+  font-size: 10px;
+  background: #f4f7f9;
+  border-radius: 10px;
+  padding: 3px 8px;
+  color: #84919b;
+}
+.icons {
+  margin-right: 6px;
+  color: #fff;
+  font-size: 13px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 6px;
+  border-radius: 40px;
+}
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+  .card-content {
+    box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.09);
+    padding: 20px 25px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    width: 50vw;
+    margin: 2vh 1vw;
+  }
+}

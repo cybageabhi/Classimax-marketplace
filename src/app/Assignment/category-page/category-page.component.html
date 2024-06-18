@@ -1,0 +1,38 @@
+<div class="section">
+  <div class="container4">
+    <div class="row-s">
+      <div class="content">
+        <div class="section-title">
+          <h2>All Categories</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad
+            quibusdam temporibus?
+          </p>
+        </div>
+        <div class="row">
+          <div class="card-content" *ngFor="let x of category">
+            <div class="header">
+              <fa-icon
+                class="icons"
+                [ngStyle]="{
+                  background: x.color,
+                  'box-shadow': '0 0 4px 10px ' + x.color
+                }"
+                [icon]="getIcon(x.type)"
+              ></fa-icon>
+              <h4>{{ x.type }}</h4>
+            </div>
+            <ul class="category-list" *ngFor="let i of x.category_list">
+              <li [ngStyle]="{ color: 'white' }">
+                <a href=""
+                  ><span>{{ i.item }} </span></a
+                >
+                <span>{{ i.price }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
